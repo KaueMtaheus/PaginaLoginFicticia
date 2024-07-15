@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/arquivos/css/style.css">
+</head>
+
+<body>
+    <section class="container-start">
+        <div id="container1">
+            <img src="img/ganho.png" alt="">
+            <h1>Life Finanças</h1>
+            <p>Aqui você ve o seu dinheiro render!</p>
+            <div class="bcbro">
+                <img class="icon" src="img/ITUB.png" alt="">
+                <img class="icon" src="img/Bancopanlogo.png" alt="">
+                <img class="icon" src="img/logo-bradesco-256.png" alt="">
+                <img class="icon" src="img/logo-santander-icon-256.png" alt="">
+                <img class="icon" src="img/crefisa-256.png" alt="">
+            </div>
+        </div>
+
+        <div id="container2">
+            <div class="container-acess" id="login-form">
+                <h2>Login</h2>
+                <input id="login-username" type="text" class="acess-txt" placeholder="Digite seu usúario">
+                <h2>Senha</h2>
+                <input id="login-password" type="password" class="acess-txt" placeholder="Digite sua senha"><br>
+                <button id="login-button">Entrar</button>
+                <a href="#" id="register-link">Registrar</a>
+                <a href="#" id="forgot-password-link">Esqueci a senha</a>
+            </div>
+        </div>
+        <div class="container-acess" id="register-form" style="display: none;">
+            <h2>Cadastro</h2>
+            <input id="register-username" type="text" class="acess-txt" placeholder="Escolha um usuário">
+            <h2>Senha</h2>
+            <input id="register-password" type="password" class="acess-txt" placeholder="Escolha uma senha"><br>
+            <a href="#" id="login-link">Voltar ao Login</a>
+        </div>
+        <div class="container-acess" id="forgot-password-form" style="display: none;">
+            <h2>Recuperação de Senha</h2>
+            <input id="forgot-password-email" type="text" class="acess-txt" placeholder="Digite seu e-mail cadastrado">
+            <br>
+            <a href="#" id="back-to-login">Voltar ao Login</a>
+        </div>
+    </section>
+    <script src="/arquivos/js/script.js"></script>
+</body>
+
+</html>

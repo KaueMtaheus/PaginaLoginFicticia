@@ -1,0 +1,126 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container-start {
+    display: flex;
+}
+
+
+#container1 {
+    width: 50vw;
+    background-color: white;
+    max-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#container1 img {
+    margin: 40px auto;
+    width: 300px;
+    display: flex;
+}
+
+#container1 h1 {
+    font-weight: bold;
+    font-size: 34px;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+}
+
+#container1 p {
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    width: 350px;
+    border-radius: 20px;
+    margin: auto;
+    background-color: yellowgreen;
+}
+
+.bcbro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Ajuste conforme necessário */
+}
+
+.bcbro .icon {
+    max-width: 40px; /* Ajuste conforme necessário */
+    margin: 0 10px; /* Espaçamento entre as imagens */
+}
+
+
+
+
+#container2 {
+    width: 50vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgb(105, 136, 42), #56721f);
+    align-items: center;
+    justify-content: center;
+}
+
+.container-acess {
+    display: grid;
+    padding: 40px;
+    justify-content: center;
+    margin: 100px auto;
+    zoom: 1.3;
+}
+
+.container-acess h2 {
+    margin-top: 20px;
+    color: white;
+    font-size: 15px;
+}
+
+.container-acess input {
+    width: 300px;
+    padding: 3px;
+}
+
+.container-acess a {
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}       
+
+
+input::placeholder {
+    color: #9191919d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#login-button, #register-button, #forgot-password-button  {
+    margin-bottom: 15px;
+    background-color: yellowgreen;
+    font-weight: bold;
+    border: none;
+}
+
+#login-button:hover  {
+    background-color: #8ab92a;
+}
+
+#register-button:hover {
+    background-color: #8ab92a;
+}
+
+#forgot-password-button:hover {
+    background-color: #8ab92a;
+}

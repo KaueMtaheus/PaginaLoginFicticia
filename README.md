@@ -1,8 +1,8 @@
-#Projeto Login Fictício
+# Projeto Login Fictício
 
 Um projeto simples de interface de login fictício usando HTML, CSS e JavaScript.
 
-##Funcionalidades
+## Funcionalidades
 
 - Login: Permite que usuários autentiquem-se com um nome de usuário e senha.
 
@@ -10,13 +10,13 @@ Um projeto simples de interface de login fictício usando HTML, CSS e JavaScript
 
 - Recuperação de Senha: Permite que usuários solicitem a recuperação de senha inserindo seu e-mail cadastrado.
 
-##Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - HTML
 - CSS
 - JavaScript
 
-##Estrutura do Projeto
+## Estrutura do Projeto
 
 - index.html: Página principal que contém as diferentes telas de login, 
 registro e recuperação de senha.
